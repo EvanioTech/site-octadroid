@@ -9,7 +9,7 @@ import { Component,Input } from '@angular/core';
 })
 export class SmallCardComponent {
 @Input()
-foto:string =''
+foto:string ='../../../assets/images 1.png'
 @Input()
 texto:string =''
 @Input()
