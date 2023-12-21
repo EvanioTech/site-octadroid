@@ -1,0 +1,36 @@
+.menu__conatiner{
+  display: flex;
+  justify-content: center;
+}
+li{
+  text-decoration: none;
+  border-radius: 12px;
+  list-style: none;
+  margin-top: 15px;
+  margin-left: 250px;
+  margin-right: 250px;
+  border: 1px solid black;
+  width: 150px;
+  height: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+
+  -webkit-box-shadow: 63px -4px 37px -8px rgba(217,235,159,0.8);
+  -moz-box-shadow: 63px -4px 37px -8px rgba(217,235,159,0.8);
+  box-shadow: 63px -4px 37px -8px rgba(217,235,159,0.8);
+}
+
+li:hover{
+  background-color: grey;
+}
+li:active{
+  position: relative;
+  top: 2px;
+}
+
+a{
+  text-decoration: none;
+  list-style: none;
+}
