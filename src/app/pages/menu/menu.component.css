@@ -34,3 +34,9 @@ a{
   text-decoration: none;
   list-style: none;
 }
+
+.active{
+  border-bottom: 2px solid yellow;
+  transform: scale(1.1);
+  transition: border-bottom 0.3s ease, color 0.3s ease,transform 0.3s ease;
+}

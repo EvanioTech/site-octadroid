@@ -10,26 +10,38 @@
 }
 .small_card:hover{
   background-color: gray;
+
 }
-.text_small:hover >li{
+.description:hover >p{
   color: aliceblue;
 }
 .foto_small > img {
 border-radius: 15px;
   display: flex;
-  margin-top: 80px;
-  margin-left: 300px;
-  margin-top: 180px;
+  margin-left: 20px;
+  margin-top: 120px;
+  border: solid 1px black;
 
 
   width: 650px;
 
 }
 
-.text_small > li{
-  margin-top: 70px;
+.description>  p{
+  margin-top: 50px;
   color: black;
-  font-size: 30px;
-  margin-left: 20px;
+  font-size: 17px;
+
+
+  width: 770px;
+  display: flex;
+
 
 }
+.full-text{
+  margin-left: 50px;
+
+  display: flex;
+  flex-direction: column;
+}
+
