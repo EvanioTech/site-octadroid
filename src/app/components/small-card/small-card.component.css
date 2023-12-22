@@ -97,7 +97,8 @@ flex-direction: column;
     display: flex;
     justify-content: center;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    margin-top: 20px;
     height: auto;
   }
 .foto_small{
