@@ -14,7 +14,6 @@ border-radius: 15px;
   display: flex;
   margin-top: 50px;
   margin-left: 10px;
-  border: solid 1px black;
 
 
   width: 650px;
@@ -51,7 +50,7 @@ border-radius: 15px;
     width: 100%;
     flex-direction: column;
   }
- 
+
 
   .full-text{
     width: 100%;
@@ -63,3 +62,125 @@ border-radius: 15px;
     flex-direction: column;
   }
 }
+@media screen and (max-width: 1200px){
+  .contaner{
+    width: auto;
+    height: auto;
+    padding: auto;
+}
+.big_card{
+  width: 100%;
+  flex-direction: column;
+
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  height: auto;
+}
+.foto_big{
+  flex-direction: column;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: auto;
+}
+.foto_big>img{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: auto;
+}
+.text_big{
+  display: flex;
+  padding: auto;
+}
+.text_big > p {
+  margin:auto;
+  display: flex;
+}
+.small_card{
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  height: auto;
+}
+.foto_small{
+flex-direction: column;
+
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: auto;
+}
+.foto_small > img{
+width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: auto;
+}
+
+
+}
+.text_small>p{
+margin:auto;
+flex-direction: column;
+  display: flex;
+}
+
+
+@media screen and (max-width: 768px)
+{
+  .contaner{
+    width: auto;
+    height: auto;
+    padding: auto;
+}
+
+
+
+
+  }
+
+  .small_card{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: auto;
+  }
+.foto_small{
+  flex-direction: column;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: auto;
+}
+.foto_small > img{
+  width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+}
+
+.full-text{
+margin: auto;
+
+}
+
+.description > p{
+  margin:auto;
+  display: flex;
+flex-direction: column;
+    height: auto;
+    width: auto;
+    font-size: 15px;
+
+}
+
+

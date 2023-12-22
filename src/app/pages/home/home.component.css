@@ -24,14 +24,13 @@ box-shadow: 29px 11px 39px 6px rgba(0,0,0,0.75);
   width: 250px;
 }
 .text_big > p{
-  margin-top: 230px;
+  margin-top: 100px;
   font-size: 30px;
   margin-left: 20px;
   color: black;
 }
 
 .small_card{
-
   margin: 150px;
   height: 500px;
   flex-direction: row;
@@ -50,9 +49,8 @@ box-shadow: 29px 11px 39px 6px rgba(0,0,0,0.75);
 .foto_small > img {
 border-radius: 15px;
   display: flex;
+  margin-left: 50px;
   margin-top: 80px;
-  margin-left: 300px;
-  margin-top: 180px;
 
 
   width: 650px;
@@ -66,6 +64,77 @@ border-radius: 15px;
   margin-left: 20px;
 
 }
+@media screen and (max-width: 1200px){
+  .contaner{
+    width: aulto;
+    height: auto;
+    padding: auto;
+    border: solid 1px black;
+}
+.big_card{
+  width: 100%;
+  flex-direction: column;
+
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  height: auto;
+}
+.foto_big{
+  flex-direction: column;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: auto;
+}
+.foto_big>img{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: auto;
+}
+.text_big{
+  display: flex;
+  padding: auto;
+}
+.text_big > p {
+  margin:auto;
+  display: flex;
+}
+.small_card{
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  height: auto;
+}
+.foto_small{
+flex-direction: column;
+
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: auto;
+}
+.foto_small > img{
+width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: auto;
+}
+
+
+}
+.text_small>p{
+margin:auto;
+flex-direction: column;
+  border: solid;
+  display: flex;
+}
+
 
 @media screen and (max-width: 768px)
 {
