@@ -97,7 +97,7 @@ flex-direction: column;
     display: flex;
     justify-content: center;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-top: 20px;
     height: auto;
   }
@@ -109,16 +109,16 @@ flex-direction: column;
     padding: auto;
 }
 .foto_small > img{
-  width: 150px;
-  height: 150px;
+  width: 80px;
+  height: 100px;
     display: flex;
-    justify-content: center;
+
     margin: auto;
     padding: auto;
 }
 
 .full-text{
-margin: auto;
+
 width: 250px;
 
 }
@@ -126,12 +126,13 @@ width: 250px;
 .description > p{
   margin:auto;
   display: flex;
-flex-direction: column;
     height: auto;
     width: auto;
     font-size: 8px;
 
 }
-
+.title >h1{
+  font-size: 15px;
+}
 }
 

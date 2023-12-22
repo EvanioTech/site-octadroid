@@ -184,7 +184,7 @@ flex-direction: column;
     display: flex;
     justify-content: center;
     margin: auto;
-    height: auto;
+    height: 200px;
   }
 .foto_small{
   flex-direction: column;
@@ -195,19 +195,20 @@ flex-direction: column;
     padding: auto;
 }
 .foto_small > img{
-  width: 250px;
+  width: 150px;
 
     display: flex;
 
     margin: auto;
-    padding: auto;
+    margin-top: 50px;
+
 }
 
 
 
 .text_small> li{
   margin:auto;
-  font-size: 18px;
+  font-size: 15px;
 
     display: flex;
 }

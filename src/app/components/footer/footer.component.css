@@ -32,10 +32,16 @@ p {
     left: 0;
     width: 100%;
     background-color: #f2f2f2;
-    padding: 1px;
-    text-align: center; 
+    padding: 2px;
+    text-align: center;
   }
   .reserved>p{
     font-size: 8px;
+  }
+  .floating-image img {
+    width: 70px; /* Ajuste conforme necessário */
+    height: auto; /* Mantém a proporção original da imagem */
+    border-radius: 50%; /* Adiciona borda circular (opcional) */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra (opcional) */
   }
 }
