@@ -4,6 +4,7 @@
   height: 500px;
   flex-direction: row;
   display: flex;
+  justify-content: space-around;
   -webkit-box-shadow: 29px 11px 39px 6px rgba(0,0,0,0.75);
 -moz-box-shadow: 29px 11px 39px 6px rgba(0,0,0,0.75);
 box-shadow: 29px 11px 39px 6px rgba(0,0,0,0.75);
@@ -66,3 +67,10 @@ border-radius: 15px;
 
 }
 
+@media screen and (max-width: 768px)
+{
+  .big_card{
+    width: 100%;
+    flex-direction: column;
+  }
+}

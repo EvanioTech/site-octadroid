@@ -39,3 +39,26 @@ border-radius: 15px;
   flex-direction: column;
 }
 
+@media screen and (max-width: 768px)
+{
+  .small_card{
+    width: 100%;
+    flex-direction: column;
+
+  }
+
+  .big_card{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .full-text{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .foto_small{
+    width: 100%;
+    flex-direction: column;
+  }
+}
