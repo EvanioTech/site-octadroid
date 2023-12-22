@@ -1,9 +1,9 @@
 .small_card{
-
-  margin: 150px;
-  height: 500px;
-  flex-direction: row;
   display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  margin-bottom: 50px;
+
   -webkit-box-shadow: 29px 11px 39px 6px rgba(0,0,0,0.75);
   -moz-box-shadow: 29px 11px 39px 6px rgba(0,0,0,0.75);
   box-shadow: 29px 11px 39px 6px rgba(0,0,0,0.75);
@@ -12,11 +12,12 @@
 .foto_small > img {
 border-radius: 15px;
   display: flex;
-  margin-top: 50px;
+  margin-top: 180px;
   margin-left: 10px;
 
 
-  width: 650px;
+  width: 450px;
+  height: 300px;
 
 }
 
@@ -32,79 +33,27 @@ border-radius: 15px;
 
 }
 .full-text{
+
   margin-left: 50px;
 
   display: flex;
-  flex-direction: column;
+flex-direction: column;
 }
 
-@media screen and (max-width: 768px)
-{
-  .small_card{
-    width: 100%;
-    flex-direction: column;
-
-  }
-
-  .big_card{
-    width: 100%;
-    flex-direction: column;
-  }
-
-
-  .full-text{
-    width: 100%;
-    flex-direction: column;
-  }
-
-  .foto_small{
-    width: 100%;
-    flex-direction: column;
-  }
-}
 @media screen and (max-width: 1200px){
   .contaner{
     width: auto;
     height: auto;
     padding: auto;
 }
-.big_card{
-  width: 100%;
-  flex-direction: column;
 
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  height: auto;
-}
-.foto_big{
-  flex-direction: column;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  padding: auto;
-}
-.foto_big>img{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  padding: auto;
-}
-.text_big{
-  display: flex;
-  padding: auto;
-}
-.text_big > p {
-  margin:auto;
-  display: flex;
-}
 .small_card{
   width: 100%;
   flex-direction: column;
   display: flex;
   justify-content: center;
   margin: auto;
+  margin-bottom: 50px;
   height: auto;
 }
 .foto_small{
@@ -142,15 +91,13 @@ flex-direction: column;
 
 
 
-
-  }
-
   .small_card{
     width: 100%;
-    flex-direction: column;
+    flex-direction: row;
     display: flex;
     justify-content: center;
     margin: auto;
+    margin-bottom: 50px;
     height: auto;
   }
 .foto_small{
@@ -161,7 +108,8 @@ flex-direction: column;
     padding: auto;
 }
 .foto_small > img{
-  width: 100%;
+  width: 150px;
+  height: 150px;
     display: flex;
     justify-content: center;
     margin: auto;
@@ -170,6 +118,7 @@ flex-direction: column;
 
 .full-text{
 margin: auto;
+width: 250px;
 
 }
 
@@ -179,8 +128,9 @@ margin: auto;
 flex-direction: column;
     height: auto;
     width: auto;
-    font-size: 15px;
+    font-size: 8px;
 
 }
 
+}
 

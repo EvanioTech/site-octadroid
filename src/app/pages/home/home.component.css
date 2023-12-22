@@ -142,39 +142,33 @@ flex-direction: column;
 
 @media screen and (max-width: 768px)
 {
-  .contaner{
-    width: auto;
-    height: auto;
-    padding: auto;
-    border: solid 1px black;
-}
+
   .big_card{
     width: auto;
-    flex-direction: column;
+    flex-direction: row;
 
     display: flex;
     justify-content: center;
     margin: auto;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     height: auto;
   }
   .foto_big{
-    flex-direction: column;
     margin: auto;
     display: flex;
     justify-content: center;
     padding: auto;
   }
   .foto_big > img{
-    width: 150px;
+    width: 100px;
     display: flex;
     justify-content: center;
     margin: auto;
     padding: auto;
-  }
-  img{
     border-radius: 50%;
   }
+
   .text_big{
     display: flex;
     padding: auto;
@@ -182,10 +176,11 @@ flex-direction: column;
   .text_big > p {
     margin:auto;
     display: flex;
+    font-size: 18px;
   }
   .small_card{
     width: 100%;
-    flex-direction: column;
+    flex-direction: row;
     display: flex;
     justify-content: center;
     margin: auto;
@@ -200,21 +195,22 @@ flex-direction: column;
     padding: auto;
 }
 .foto_small > img{
-  width: 100%;
+  width: 250px;
 
     display: flex;
-    justify-content: center;
+
     margin: auto;
     padding: auto;
 }
 
 
-}
-.text_small>p{
+
+.text_small> li{
   margin:auto;
-flex-direction: column;
-    border: solid;
+  font-size: 18px;
+
     display: flex;
 }
 
 
+}
