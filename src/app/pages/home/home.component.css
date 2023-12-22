@@ -74,8 +74,10 @@ border-radius: 15px;
 .big_card{
   width: 100%;
   flex-direction: row;
-margin: auto;
+  margin:auto;
+  margin-bottom: 50px;
   display: flex;
+
 
 
 
@@ -153,6 +155,7 @@ flex-direction: column;
     display: flex;
     justify-content: center;
     margin: auto;
+    margin-bottom: 50px;
     height: auto;
   }
   .foto_big{

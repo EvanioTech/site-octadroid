@@ -1,0 +1,26 @@
+.floating-image {
+  position: fixed;
+  bottom: 20px; /* Ajuste conforme necessário */
+  right: 20px; /* Ajuste conforme necessário */
+  z-index: 999; /* Certifica-se de que a imagem está acima do conteúdo */
+}
+
+.floating-image img {
+  width: 100px; /* Ajuste conforme necessário */
+  height: auto; /* Mantém a proporção original da imagem */
+  border-radius: 50%; /* Adiciona borda circular (opcional) */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra (opcional) */
+}
+.reserved {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f2f2f2; /* Cor de fundo do rodapé, ajuste conforme necessário */
+  padding: 20px; /* Espaçamento interno do rodapé, ajuste conforme necessário */
+  text-align: center; /* Centraliza o texto no rodapé */
+}
+
+p {
+  margin: 0; /* Remove as margens padrão do parágrafo */
+}
