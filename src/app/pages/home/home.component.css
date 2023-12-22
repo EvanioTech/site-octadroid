@@ -69,8 +69,74 @@ border-radius: 15px;
 
 @media screen and (max-width: 768px)
 {
+  .contaner{
+    width: aulto;
+    height: auto;
+    padding: auto;
+    border: solid 1px black;
+}
   .big_card{
     width: 100%;
     flex-direction: column;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: auto;
   }
+  .foto_big{
+    flex-direction: column;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: auto;
+  }
+  .foto_big>img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+  }
+  .text_big{
+    display: flex;
+    padding: auto;
+  }
+  .text_big > p {
+    margin:auto;
+    display: flex;
+  }
+  .small_card{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: auto;
+  }
+.foto_small{
+  flex-direction: column;
+
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: auto;
 }
+.foto_small > img{
+  width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+}
+
+
+}
+.text_small>p{
+  margin:auto;
+flex-direction: column;
+    border: solid;
+    display: flex;
+}
+
+
