@@ -22,6 +22,7 @@ box-shadow: 29px 11px 39px 6px rgba(0,0,0,0.75);
   margin-top: 80px;
   margin-left: 40px;
   width: 250px;
+  border-radius: 50%;
 }
 .text_big > p{
   margin-top: 100px;
@@ -49,8 +50,7 @@ box-shadow: 29px 11px 39px 6px rgba(0,0,0,0.75);
 .foto_small > img {
 border-radius: 15px;
   display: flex;
-  margin-left: 50px;
-  margin-top: 80px;
+  margin: auto;
 
 
   width: 650px;
@@ -66,33 +66,34 @@ border-radius: 15px;
 }
 @media screen and (max-width: 1200px){
   .contaner{
-    width: aulto;
+    width: auto;
     height: auto;
     padding: auto;
     border: solid 1px black;
 }
 .big_card{
   width: 100%;
-  flex-direction: column;
-
+  flex-direction: row;
+margin: auto;
   display: flex;
-  justify-content: center;
-  margin: auto;
-  height: auto;
+
+
+
 }
 .foto_big{
-  flex-direction: column;
-  margin: auto;
+
+
   display: flex;
   justify-content: center;
   padding: auto;
 }
 .foto_big>img{
-  width: 100%;
+  width: 150px;
   display: flex;
   justify-content: center;
   margin: auto;
   padding: auto;
+  border-radius: 50%;
 }
 .text_big{
   display: flex;
@@ -128,26 +129,27 @@ width: 100%;
 
 
 }
-.text_small>p{
+.text_small>li{
 margin:auto;
 flex-direction: column;
-  border: solid;
+
   display: flex;
+
 }
 
 
 @media screen and (max-width: 768px)
 {
   .contaner{
-    width: aulto;
+    width: auto;
     height: auto;
     padding: auto;
     border: solid 1px black;
 }
   .big_card{
-    width: 100%;
+    width: auto;
     flex-direction: column;
-    border: solid;
+
     display: flex;
     justify-content: center;
     margin: auto;
@@ -160,12 +162,15 @@ flex-direction: column;
     justify-content: center;
     padding: auto;
   }
-  .foto_big>img{
-    width: 100%;
+  .foto_big > img{
+    width: 150px;
     display: flex;
     justify-content: center;
     margin: auto;
     padding: auto;
+  }
+  img{
+    border-radius: 50%;
   }
   .text_big{
     display: flex;
@@ -193,6 +198,7 @@ flex-direction: column;
 }
 .foto_small > img{
   width: 100%;
+
     display: flex;
     justify-content: center;
     margin: auto;
