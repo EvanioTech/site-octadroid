@@ -8,18 +8,12 @@
   -moz-box-shadow: 29px 11px 39px 6px rgba(0,0,0,0.75);
   box-shadow: 29px 11px 39px 6px rgba(0,0,0,0.75);
 }
-.small_card:hover{
-  background-color: gray;
 
-}
-.description:hover >p{
-  color: aliceblue;
-}
 .foto_small > img {
 border-radius: 15px;
   display: flex;
-  margin-left: 20px;
-  margin-top: 120px;
+  margin-top: 50px;
+  margin-left: 10px;
   border: solid 1px black;
 
 
