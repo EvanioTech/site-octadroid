@@ -1,4 +1,9 @@
-
+.offcanvas {
+ 
+   
+    max-height: 50%;
+    background-color: #c5e8f5;
+}
 @media (max-width: 575.98px) {
 
 
@@ -9,3 +14,4 @@
 }
 
 }
+
