@@ -49,6 +49,7 @@ padding: 20px;
 }
 .small_card:hover{
   background-color: gray;
+  border: solid 1px rgb(66, 63, 216);
 
 }
 .text_small:hover >li{
@@ -149,7 +150,7 @@ flex-direction: column;
 
 @media screen and (max-width: 768px)
 {
-  
+
 
   .big_card{
     width: auto;
