@@ -3,6 +3,8 @@
   flex-direction: row;
   margin-top: 15px;
   margin-bottom: 50px;
+  padding: 10px;
+  border-radius: 15px;
 
   -webkit-box-shadow: 29px 11px 39px 6px rgba(0,0,0,0.75);
   -moz-box-shadow: 29px 11px 39px 6px rgba(0,0,0,0.75);
@@ -25,10 +27,7 @@ border-radius: 15px;
   margin-top: 50px;
   color: black;
   font-size: 17px;
-
-
-  width: 100%;
-  display: flex;
+  padding-right: 26px
 
 
 }
@@ -41,6 +40,7 @@ border-radius: 15px;
   flex-direction: column;
   width: 100%;
 margin-left: 20px;
+  justify-content: space-around;
 
 }
 
