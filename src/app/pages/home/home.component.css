@@ -9,6 +9,7 @@
 -moz-box-shadow: 29px 11px 39px 6px rgba(0,0,0,0.75);
 box-shadow: 29px 11px 39px 6px rgba(0,0,0,0.75);
 border-radius: 30px;
+padding: 20px;
 }
 .big_card:hover{
   background-color: grey;
@@ -32,6 +33,7 @@ border-radius: 30px;
   font-size: 25px;
   margin-left: 20px;
   color: black;
+
 }
 
 .small_card{
@@ -147,6 +149,7 @@ flex-direction: column;
 
 @media screen and (max-width: 768px)
 {
+  
 
   .big_card{
     width: auto;
@@ -176,19 +179,19 @@ flex-direction: column;
 
   .text_big{
     display: flex;
-    padding: auto;
+    padding: 10px;
   }
   .text_big > p {
     margin:auto;
     display: flex;
-    font-size: 18px;
+    font-size: 12px;
   }
   .small_card{
     width: 100%;
     flex-direction: row;
     display: flex;
     justify-content: center;
-    margin: auto;
+    padding: 10px;
     height: 200px;
   }
 .foto_small{
