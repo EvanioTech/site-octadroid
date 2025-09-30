@@ -8,10 +8,13 @@
   -webkit-box-shadow: 29px 11px 39px 6px rgba(0,0,0,0.75);
 -moz-box-shadow: 29px 11px 39px 6px rgba(0,0,0,0.75);
 box-shadow: 29px 11px 39px 6px rgba(0,0,0,0.75);
+border-radius: 30px;
 }
 .big_card:hover{
   background-color: grey;
   color: white;
+  border: solid 1px rgb(66, 63, 216);
+
 }
 .text_big:hover > p{
   color: white;
@@ -39,6 +42,7 @@ box-shadow: 29px 11px 39px 6px rgba(0,0,0,0.75);
   -webkit-box-shadow: 29px 11px 39px 6px rgba(0,0,0,0.75);
   -moz-box-shadow: 29px 11px 39px 6px rgba(0,0,0,0.75);
   box-shadow: 29px 11px 39px 6px rgba(0,0,0,0.75);
+  border-radius: 30px;
 }
 .small_card:hover{
   background-color: gray;
