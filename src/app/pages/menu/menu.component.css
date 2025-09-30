@@ -3,7 +3,7 @@
    
     max-height: 50%;
     border-radius: 30px;
-    background-color: #c5e8f5;
+    background-color: #fff;
 }
 @media (max-width: 575.98px) {
 
@@ -15,5 +15,6 @@
 }
 
 }
+
 
 
